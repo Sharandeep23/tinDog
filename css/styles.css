@@ -1,0 +1,119 @@
+#title {
+    background-color: #ff4c68;
+    height: 700px;
+    overflow: hidden;
+}
+
+.container-fluid {
+    padding: 2% 5%;
+}
+
+.logo {
+    width: 60%;
+}
+
+/* toggler button */
+.navbar-toggler {
+    padding: 0;
+}
+
+.mobile {
+    transform: rotate(25deg);
+    width: 60%;
+}
+
+.navbar {
+    padding: 0;
+}
+
+ul li {
+    letter-spacing: 0.25rem;
+    text-transform: uppercase;
+}
+
+/* For making the menu hovering white */
+ul li a:hover {
+    color: #fff !important;
+}
+
+/* Freaking download buttons */
+
+.download-btn {
+    height: 3rem;
+}
+
+.btn-text {
+    position: relative;
+    top: -15px;
+    left: 5px;
+}
+
+.btn-text-2 {
+    position: relative;
+    top: -7px;
+}
+
+/* For the Google Play text */
+
+.btn-text-3 {
+    position: relative;
+    top: -7px;
+    left: 16px;
+}
+
+#title h1 {
+    font-family: "Pacifico", cursive;
+    font-size: 5rem;
+    line-height: 1.5;
+    color: #fff;
+}
+
+::selection {
+    color: purple;
+}
+
+/* ipad pro */
+
+@media screen and (max-width: 1024px) {
+    #title h1 {
+        font-size: 3.5rem;
+        line-height: 1.2;
+    }
+    #title {
+        height: 500px;
+    }
+}
+
+/* ipad and iphone */
+
+@media screen and (max-width: 991px) {
+    #title h1 {
+        font-size: 2.5rem;
+        line-height: 1.2;
+    }
+    #title {
+        height: auto;
+        text-align: center;
+    }
+    .mobile {
+        transform: rotate(0deg);
+        width: 40%;
+    }
+    .logo {
+        display: block;
+        margin-left: 330px;
+
+        width: 30%;
+    }
+}
+
+/* Other small devices  */
+@media screen and (max-width: 768px) {
+    .logo {
+        width: 50%;
+    }
+    .logo {
+        display: inline;
+        margin-left: 40px;
+    }
+}
