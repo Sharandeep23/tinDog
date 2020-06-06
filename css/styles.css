@@ -33,7 +33,7 @@
     padding: 0;
 }
 
-ul li {
+#title ul li {
     letter-spacing: 0.25rem;
     text-transform: uppercase;
 }
@@ -139,6 +139,33 @@ ul li a:hover {
     margin: 2%;
 }
 
+/* Pricing */
+
+#pricing {
+    height: 800px;
+}
+
+#pricing h2 {
+    font-size: 3rem;
+    font-weight: 100;
+}
+
+.pricing-intro {
+    text-align: center;
+    line-height: 2.5rem;
+    padding: 3% 0;
+}
+
+.card li {
+    line-height: 2.5rem;
+    color: #afafaf;
+}
+
+.card-header h4 {
+    font-weight: 100;
+    font-size: 190%;
+}
+
 ::selection {
     color: purple;
 }
@@ -163,6 +190,10 @@ ul li a:hover {
 
     .press-logo {
         width: 110px;
+    }
+
+    #pricing h2 {
+        font-size: 2.5rem;
     }
 }
 
@@ -200,6 +231,12 @@ ul li a:hover {
     }
     .press-logo {
         width: 90px;
+    }
+    #pricing {
+        height: auto;
+    }
+    #pricing h2 {
+        font-size: 2rem;
     }
 }
 
