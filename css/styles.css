@@ -1,3 +1,10 @@
+/* Title Section */
+
+* {
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
 #title {
     background-color: #ff4c68;
     height: 700px;
@@ -9,7 +16,7 @@
 }
 
 .logo {
-    width: 60%;
+    width: 55%;
 }
 
 /* toggler button */
@@ -68,6 +75,70 @@ ul li a:hover {
     color: #fff;
 }
 
+/* Features */
+#features {
+    height: 410px;
+}
+
+#features p {
+    color: #afafaf;
+}
+
+#features h3 {
+    font-weight: 100;
+}
+
+.feature-box {
+    margin-top: 2rem;
+    padding: 2rem 2rem;
+    text-align: center;
+    max-width: 400px;
+}
+
+.icon {
+    color: #ef8172;
+    margin: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+/* Testimonials */
+
+#testimonials {
+    background-color: #ef8172;
+    color: #fff;
+    text-align: center;
+}
+
+#testimonials h2 {
+    font-weight: 100;
+    font-size: 3rem;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 50%;
+    margin: 2%;
+}
+
+.carousel-item {
+    padding: 5% 5%;
+}
+
+/* Press */
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 140px;
+    margin: 2%;
+}
+
 ::selection {
     color: purple;
 }
@@ -82,6 +153,17 @@ ul li a:hover {
     #title {
         height: 500px;
     }
+    .logo {
+        width: 50%;
+    }
+
+    #testimonials h2 {
+        font-size: 2.5rem;
+    }
+
+    .press-logo {
+        width: 110px;
+    }
 }
 
 /* ipad and iphone */
@@ -94,6 +176,14 @@ ul li a:hover {
     #title {
         height: auto;
         text-align: center;
+        padding-bottom: 2rem;
+    }
+    #features {
+        height: auto;
+    }
+    .feature-box {
+        margin: 1rem auto;
+        padding: 1rem 4rem;
     }
     .mobile {
         transform: rotate(0deg);
@@ -105,12 +195,18 @@ ul li a:hover {
 
         width: 30%;
     }
+    #testimonials h2 {
+        font-size: 2rem;
+    }
+    .press-logo {
+        width: 90px;
+    }
 }
 
 /* Other small devices  */
 @media screen and (max-width: 768px) {
     .logo {
-        width: 50%;
+        width: 40%;
     }
     .logo {
         display: inline;
