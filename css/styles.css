@@ -11,17 +11,22 @@
     overflow: hidden;
 }
 
+#title a.navbar-brand {
+    margin: 0;
+    width: 25%;
+}
+
+button.navbar-toggler {
+    margin: 0;
+    padding: 0;
+}
+
 .container-fluid {
     padding: 2% 5%;
 }
 
 .logo {
     width: 55%;
-}
-
-/* toggler button */
-.navbar-toggler {
-    padding: 0;
 }
 
 .mobile {
@@ -210,11 +215,12 @@ ul li a:hover {
         font-size: 3.5rem;
         line-height: 1.2;
     }
+
+    #title a.navbar-brand {
+        width: 40%;
+    }
     #title {
         height: 500px;
-    }
-    #title .logo {
-        width: 50%;
     }
 
     #testimonials h2 {
@@ -241,10 +247,16 @@ ul li a:hover {
         font-size: 2.5rem;
         line-height: 1.2;
     }
-    #title {
-        height: auto;
+    #title .row {
         text-align: center;
         padding-bottom: 2rem;
+    }
+
+    #title a.navbar-brand {
+        width: 50%;
+    }
+    #title {
+        height: auto;
     }
     #features {
         height: auto;
@@ -253,15 +265,10 @@ ul li a:hover {
         margin: 1rem auto;
         padding: 1rem 4rem;
     }
+
     .mobile {
         transform: rotate(0deg);
         width: 40%;
-    }
-    #title .logo {
-        display: block;
-        margin-left: 251px;
-
-        width: 30%;
     }
     #testimonials h2 {
         font-size: 2rem;
@@ -288,22 +295,17 @@ ul li a:hover {
     }
 }
 
-/* large mobile phones  */
-@media only screen and (max-width: 411px) {
-    #title .logo {
-        width: 35%;
-        position: absolute;
-        margin: 0;
-        top: 15px;
-        left: 112px;
-    }
-
-    .navbar-toggler {
-        margin: 1rem;
-    }
-
+/* mobile phones  */
+@media only screen and (max-width: 450px) {
     #testimonials h2 {
         font-size: 1.5rem;
+    }
+    #title a.navbar-brand {
+        width: 80%;
+    }
+
+    #testimonials {
+        height: 230px;
     }
 
     #pricing h2 {
@@ -331,16 +333,3 @@ ul li a:hover {
         font-size: 14px;
     }
 }
-
-/* iphone */
-@media only screen and (max-width: 376px) {
-    #title .logo {
-        left: 102px;
-    }
-
-/* Small devices */
-
-@media only screen and (max-width: 361px) {
-    #title .logo {
-        left: 98px;
-    }
