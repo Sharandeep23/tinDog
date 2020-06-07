@@ -288,14 +288,14 @@ ul li a:hover {
     }
 }
 
-/* iphone  */
-@media only screen and (max-width: 375px) {
+/* large mobile phones  */
+@media only screen and (max-width: 411px) {
     #title .logo {
         width: 35%;
         position: absolute;
         margin: 0;
         top: 15px;
-        left: 102px;
+        left: 112px;
     }
 
     .navbar-toggler {
@@ -331,3 +331,9 @@ ul li a:hover {
         font-size: 14px;
     }
 }
+
+/* iphone */
+@media only screen and (max-width: 375px) {
+    #title .logo {
+        left: 102px;
+    }
