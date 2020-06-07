@@ -142,7 +142,7 @@ ul li a:hover {
 /* Pricing */
 
 #pricing {
-    height: 800px;
+    height: 780px;
 }
 
 #pricing h2 {
@@ -164,6 +164,39 @@ ul li a:hover {
 .card-header h4 {
     font-weight: 100;
     font-size: 190%;
+}
+
+/* Call to action */
+
+#cta {
+    text-align: center;
+    height: 370px;
+    background-color: #ff4c68;
+    color: white;
+}
+
+#cta h3 {
+    font-size: 3.5rem;
+    font-weight: 100;
+}
+
+/* Footer */
+
+#footer p {
+    font-weight: 400;
+}
+
+#footer i {
+    color: #ff4c68;
+}
+
+#footer .icons i {
+    padding: 0 0.4rem;
+}
+
+#footer .first-letter {
+    color: purple;
+    font-size: 20px;
 }
 
 ::selection {
@@ -194,6 +227,10 @@ ul li a:hover {
 
     #pricing h2 {
         font-size: 2.5rem;
+    }
+
+    #cta h3 {
+        font-size: 3rem;
     }
 }
 
@@ -238,6 +275,17 @@ ul li a:hover {
     #pricing h2 {
         font-size: 2rem;
     }
+    #cta h3 {
+        font-size: 2.5rem;
+    }
+
+    #footer {
+        font-size: 15px;
+    }
+
+    #footer .first-letter {
+        font-size: 20px;
+    }
 }
 
 /* Other small devices  */
@@ -248,5 +296,13 @@ ul li a:hover {
     .logo {
         display: inline;
         margin-left: 40px;
+    }
+
+    #footer {
+        font-size: 12px;
+    }
+
+    #footer .first-letter {
+        font-size: 16px;
     }
 }
