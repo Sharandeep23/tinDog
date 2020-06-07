@@ -333,7 +333,14 @@ ul li a:hover {
 }
 
 /* iphone */
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 376px) {
     #title .logo {
         left: 102px;
+    }
+
+/* Small devices */
+
+@media only screen and (max-width: 361px) {
+    #title .logo {
+        left: 98px;
     }
