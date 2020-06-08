@@ -1,9 +1,8 @@
-/* Title Section */
-
 * {
-    box-sizing: border-box;
     font-family: "Open Sans", sans-serif;
 }
+
+/* Title */
 
 #title {
     background-color: #ff4c68;
@@ -81,6 +80,7 @@ ul li a:hover {
 }
 
 /* Features */
+
 #features {
     height: 410px;
 }
@@ -133,6 +133,7 @@ ul li a:hover {
 }
 
 /* Press */
+
 #press {
     background-color: #ef8172;
     text-align: center;
@@ -211,6 +212,8 @@ ul li a:hover {
 /* ipad pro */
 
 @media only screen and (max-width: 1024px) {
+    /* Title  */
+
     #title h1 {
         font-size: 3.5rem;
         line-height: 1.2;
@@ -223,17 +226,25 @@ ul li a:hover {
         height: 500px;
     }
 
+    /* Testimonials */
+
     #testimonials h2 {
         font-size: 2.5rem;
     }
+
+    /* Press */
 
     .press-logo {
         width: 110px;
     }
 
+    /* Pricing */
+
     #pricing h2 {
         font-size: 2.5rem;
     }
+
+    /* Call to action */
 
     #cta h3 {
         font-size: 3rem;
@@ -243,9 +254,10 @@ ul li a:hover {
 /* ipad*/
 
 @media only screen and (max-width: 768px) {
+    /* Title */
+
     #title h1 {
         font-size: 2.5rem;
-        line-height: 1.2;
     }
     #title .row {
         text-align: center;
@@ -258,6 +270,14 @@ ul li a:hover {
     #title {
         height: auto;
     }
+
+    #title .mobile {
+        transform: rotate(0deg);
+        width: 40%;
+    }
+
+    /* Features */
+
     #features {
         height: auto;
     }
@@ -266,25 +286,34 @@ ul li a:hover {
         padding: 1rem 4rem;
     }
 
-    .mobile {
-        transform: rotate(0deg);
-        width: 40%;
-    }
+    /* Testimonials */
+
     #testimonials h2 {
         font-size: 2rem;
     }
+
+    /* Press */
+
     .press-logo {
         width: 90px;
     }
+
+    /* Pricing */
+
     #pricing {
         height: auto;
     }
     #pricing h2 {
         font-size: 2rem;
     }
+
+    /* Call to action */
+
     #cta h3 {
         font-size: 2.5rem;
     }
+
+    /* Footer */
 
     #footer {
         font-size: 15px;
@@ -296,17 +325,30 @@ ul li a:hover {
 }
 
 /* mobile phones  */
+
 @media only screen and (max-width: 450px) {
-    #testimonials h2 {
-        font-size: 1.5rem;
-    }
+    /* Title */
+
     #title a.navbar-brand {
         width: 80%;
+    }
+    /* Testimonials */
+
+    #testimonials h2 {
+        font-size: 1.5rem;
     }
 
     #testimonials {
         height: 230px;
     }
+
+    /* Press */
+
+    .press-logo {
+        width: 70px;
+    }
+
+    /* Pricing */
 
     #pricing h2 {
         font-size: 1.5rem;
@@ -317,13 +359,13 @@ ul li a:hover {
         font-size: 14px;
     }
 
-    .press-logo {
-        width: 70px;
-    }
+    /* Call to action */
 
     #cta h3 {
         font-size: 2rem;
     }
+
+    /* Footer */
 
     #footer {
         font-size: 10px;
